@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  text-align: center;
+  background-color: aqua;
+}
+button {
+  box-sizing: content-box;
+}

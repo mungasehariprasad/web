@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+  </head>
+  <style>
+    .con {
+      display: flex;
+      /* align-items: flex-start; */
+      /* align-items: center; */
+      /* align-items: center; */
+      /* flex-direction: column; */
+    }
+    .con div,.con-1 div {
+      border: 1px black solid;
+      padding: 10px;
+    }
+    .box-1 {
+      flex: 1;
+      order: 3;
+    }
+    .box-2 {
+      flex: 1;
+      order: 2;
+    }
+    .box-3 {
+      flex: 1;
+      order: 1;
+    }
+    .box-4{
+      width: 30%;
+
+    }
+  </style>
+ 
+    <div class="con">
+      <div class="box-1">
+        <h3>Box-1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit
+          asperiores aspernatur error rerum vero animi, omnis iure! Maxime
+          reiciendis cumque repellat aperiam id non dignissimos ex tenetur
+          fugiat quia.
+        </p>
+      </div>
+
+      <div class="box-2">
+        <h3>Box-2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit
+          asperiores aspernatur error rerum vero animi, omnis iure! Maxime
+          reiciendis cumque repellat aperiam id non dignissimos ex tenetur
+          fugiat quia.
+        </p>
+      </div>
+
+      <div class="box-3">
+        <h3>Box-3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit
+          asperiores aspernatur error rerum vero animi, omnis iure! Maxime
+          reiciendis cumque repellat aperiam id non dignissimos ex tenetur
+          fugiat quia.
+        </p>
+      </div>
+    </div>
+    <div class="con-1">
+      <div class="box-4">
+        <h3>Box-4</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit
+          asperiores aspernatur error rerum vero animi, omnis iure! Maxime
+          reiciendis cumque repellat aperiam id non dignissimos ex tenetur
+          fugiat quia.
+        </p>
+      </div>
+
+      <div class="box-5">
+        <h3>Box-5</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit
+          asperiores aspernatur error rerum vero animi, omnis iure! Maxime
+          reiciendis cumque repellat aperiam id non dignissimos ex tenetur
+          fugiat quia.
+        </p>
+      </div>
+
+      <div class="box-6">
+        <h3>Box-6</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit
+          asperiores aspernatur error rerum vero animi, omnis iure! Maxime
+          reiciendis cumque repellat aperiam id non dignissimos ex tenetur
+          fugiat quia.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

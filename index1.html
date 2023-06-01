@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comlete Website Disign Uisng HTML and CSS</title>
+    <link rel="stylesheet" href="index1.css" />
+  </head>
+  <body>
+    <section id="herd">
+      <div class="con">
+        <img src="img/logo.png" alt="" class="logo" />
+        <div class="herd-text">
+          <h1>
+            The Purpose is to <br />
+            teach,bring learning to people
+          </h1>
+          <span class="square"></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+            alias dolore perferendis dolorem sunt recusandae ipsum, explicabo,
+            soluta vitae provident itaque tempora vel! Incidunt aperiam sit
+            minima vitae ea ad!
+          </p>
+          <button class="common-btn">Read More</button>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav id="sidenav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">offer</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="img/menu.png" alt="" id="menuBtn" />
+
+    <section id="about">
+      <div class="about-left-col">
+        <img src="img/about.png" alt="" />
+      </div>
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>About us</h1>
+          <span class="square"></span>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae totam
+            aperiam incidunt commodi qui, quidem explicabo consequuntur
+            inventore minus esse necessitatibus quod expedita perspiciatis
+            similique nostrum, doloribus autem eum laborum.
+          </p>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+          <h2>
+            ''Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quis voluptatem repellendus quo odio recusandae?''
+          </h2>
+          <h3>----Abigail Adams</h3>
+        </div>
+      </div>
+    </section>
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sidenav = document.getElementById("sidenav");
+
+      sidenav.style.right = "-250px";
+      menuBtn.onclick = function () {
+        if ((sidenav.style.right = "-250px")) {
+          sidenav.style.right = "0";
+        } else {
+          sidenav.style.right = "-250px";
+        }
+      };
+    </script>
+  </body>
+</html>

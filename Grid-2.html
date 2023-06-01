@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wra {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+    .wra > div {
+      background: #eee;
+      padding: 1em;
+    }
+    .wra > div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+  <body>
+    <div class="wra">
+      <div>Lorem ipsum dolor sit.</div>
+      <div>Lorem ipsum dolor sit.</div>
+      <div>Lorem ipsum dolor sit.</div>
+      <div>Lorem ipsum dolor sit.</div>
+      <div>Lorem ipsum dolor sit.</div>
+    </div>
+  </body>
+</html>

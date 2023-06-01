@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css variables</title>
+    <link rel="stylesheet" href="cssvaribles.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Css variables</h1>
+    </header>
+
+    <div class="con">
+      <div class="grid">
+        <div class="box">
+          <h1>Hello World</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            sed numquam quibusdam, repellendus, ad exercitationem sint vel aut
+            ea magnam inventore ratione enim. Architecto non libero quibusdam
+            similique dolorem unde!
+          </p>
+        </div>
+        <div class="box">
+          <h1>Hello World</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            maiores, commodi temporibus eius fuga architecto, culpa at, numquam
+            aliquid veniam ducimus! Molestiae, alias. Odit enim unde sint fugiat
+            natus ipsum!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const box = document.querySelector(".box");
+      const boxstyles = getComputedStyle(box);
+      const boxMaincolor = boxstyles.getPropertyValue("--box-main-color");
+      console.log(boxMaincolor);
+    </script>
+  </body>
+</html>

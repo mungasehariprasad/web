@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .con {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+      }
+      .navbar {
+        border-radius: 12px;
+        background-color: aqua;
+
+        margin: 23px 12px;
+        padding: 12px;
+        text-align: center;
+      }
+
+      .navbar ul li {
+        display: inline;
+
+        text-decoration: none;
+        /* border: 2px solid red; */
+        margin: 12px;
+        border-radius: 12px;
+
+        padding: 12px;
+      }
+      .navbar ul li a {
+        text-decoration: none;
+      }
+      .navbar ul li a:hover {
+        color: black;
+      }
+
+      .boxitem {
+        display: grid;
+        grid-template-columns: repeat(6, 2fr);
+        grid-template-rows: repeat(1, 2fr);
+        /* grid-column-gap: 7rem;
+              grid-row-gap: 1rem; */
+        grid-gap: 1rem;
+      }
+      .box {
+        border: 2px solid black;
+
+        padding: 43px;
+      }
+      .box-1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        background: url(img/mediterranean-1.jpg);
+      }
+      .box-2 {
+        grid-column: 3 / span 2;
+        grid-row: 1 / span 2;
+      }
+      .box-3 {
+        grid-column: 5 / span 6;
+        grid-row: 1 / span 1;
+      }
+      .box-4 {
+        grid-column: 5 / span 6;
+        grid-row: 2 / span;
+      }
+      .box-5 {
+        grid-column: 1 / span 10;
+        grid-row: 3 / span 4;
+      }
+      .box-6 {
+        grid-column: 1 / span 10;
+        /* grid-row: 12 / span 4; */
+      }
+      .box-7 {
+        grid-column: 1 / span 3;
+        /* grid-row: 10 / span 2; */
+      }
+      .box-8 {
+        grid-column: 4 / span 7;
+      }
+      .box-9 {
+        grid-column: 1 / span 2;
+      }
+      .box-10 {
+        grid-column: 3 / span 3;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="con">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Servise</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Sing In</a></li>
+          <li id="login"><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="boxitem">
+      <div class="box box-1">
+        <h1>This is box</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat sed
+          dolorem sapiente veniam, eum excepturi laudantium odio nihil cum
+          officia minima at alias officiis amet repudiandae quo voluptatum
+          facere quis.
+        </p>
+      </div>
+      <div class="box box-2">
+        <h1>this is 2th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-3">
+        <h1>this is 3th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-4">
+        <h1>this is 4th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-5">
+        <h1>this is 5th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-6">
+        <h1>this is 6th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-7">
+        <h1>this is 7th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-8">
+        <h1>this is 8th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-9">
+        <h1>this is 9th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+      <div class="box box-10">
+        <h1>this is 10th box</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis officiis tenetur nesciunt deleniti, hic accusantium placeat
+          atque beatae explicabo neque sapiente, est reprehenderit ab nisi
+          inventore libero? Veniam, iure.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
