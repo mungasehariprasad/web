@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health and Fitness Tracker</title>
+  <link rel="stylesheet" href="fitness.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Health and Fitness Tracker</h1>
+    <div class="tracker">
+      <h2>Step Tracker</h2>
+      <input type="number" id="stepInput" placeholder="Enter steps">
+      <button onclick="addSteps()">Add Steps</button>
+      <p>Total Steps: <span id="totalSteps">0</span></p>
+    </div>
+    <div class="tracker">
+      <h2>Calorie Tracker</h2>
+      <input type="number" id="calorieInput" placeholder="Enter calories">
+      <button onclick="addCalories()">Add Calories</button>
+      <p>Total Calories: <span id="totalCalories">0</span></p>
+    </div>
+    <div class="tracker">
+      <h2>Water Intake Tracker</h2>
+      <input type="number" id="waterInput" placeholder="Enter water intake in ml">
+      <button onclick="addWater()">Add Water Intake</button>
+      <p>Total Water Intake: <span id="totalWater">0</span> ml</p>
+    </div>
+  </div>
+
+  <script src="Tracker.js"></script>
+</body>
+
+</html>

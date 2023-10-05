@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 24px;
+  color: #ff0000;
+}
+
+main {
+  display: flex;
+  margin: 20px;
+}
+
+#videoPlayer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#videoFrame {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+#videoTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#sidebar {
+  flex: 1;
+}
+
+#recommendedVideosList {
+  list-style-type: none;
+}
+
+#recommendedVideosList li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#recommendedVideosList img {
+  width: 120px;
+  height: auto;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

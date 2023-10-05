@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Page</title>
+  <link rel="stylesheet" type="text/css" href="sty.css">
+</head>
+
+<body>
+  <header>
+    <h1>YouTube</h1>
+    <input type="text" id="searchInput" placeholder="Search">
+    <button onclick="search()">Search</button>
+  </header>
+
+  <main>
+    <div id="videoPlayer">
+      <iframe id="videoFrame" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <h2 id="videoTitle">Video Title</h2>
+      <p id="videoDescription">Video description goes here...</p>
+    </div>
+
+    <div id="sidebar">
+      <h2>Recommended Videos</h2>
+      <ul id="recommendedVideosList">
+        <!-- Recommended videos will be dynamically added here -->
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 YouTube. All rights reserved.</p>
+  </footer>
+
+  <script src="sc.js"></script>
+</body>
+
+</html>
